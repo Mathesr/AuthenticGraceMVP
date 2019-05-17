@@ -1,3 +1,4 @@
+/* begin CSS for the header */
 header{
     height: 100px;
     width: 100%;
@@ -5,6 +6,21 @@ header{
 }
 
 .logo{
-    height:75px;
-    width:300px;
+    height:100px;
+    width:333px;
 }
+/* end header CSS */
+/* begin navigation bar CSS */
+nav{
+    background-color: black;
+    text-align: center;
+    height:50px;
+    width:100%;
+    line-height: 275%;
+}
+nav a{
+    font-family: 'Copperplate Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding:50px;
+}
+/* end navigation bar CSS */
