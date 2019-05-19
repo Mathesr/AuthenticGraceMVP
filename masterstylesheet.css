@@ -1,4 +1,11 @@
-/* begin CSS for the header */
+/* whole page */
+li{
+    list-style: none;
+}
+body{
+    margin: 0;
+}
+/* begin header */
 header{
     height: 100px;
     width: 100%;
@@ -9,24 +16,25 @@ header{
     height:100px;
     width:333px;
 }
-/* end header CSS */
-/* begin navigation bar CSS */
+/* end header */
+/* begin navigation bar  */
 nav{
-    background-color: black;
+    background-color: #220000;
     text-align: center;
     height:50px;
     width:100%;
     line-height: 275%;
+    border-bottom: 1px;
 }
 nav a{
     font-family: 'Copperplate Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     padding:50px;
 }
-/* end navigation bar CSS */
+/* end navigation bar */
 /* begin main images */
-li{
-    list-style: none;
+main{
+    background-color: #f2ddda;
 }
 img{
     height: 425px;
@@ -41,4 +49,12 @@ img{
     float: right;
     padding: 5px;
     margin: 0;
+}
+.toprow{
+    height: 450px;
+    width:100%;
+}
+.secondrow{
+    height: 450px;
+    width: 100%;
 }
