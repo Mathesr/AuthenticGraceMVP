@@ -10,10 +10,10 @@
     .container{
         width: 100%;
     }
-    .toprow{
+    .top-images{
         width:100%;
     }
-    .secondrow{
+    .bottom-images{
         display:none;
     }
 

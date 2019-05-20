@@ -1,12 +1,13 @@
 /* whole page */
-li{
-    list-style: none;
+*{
+    box-sizing: border-box;
 }
+
 body{
     margin: 0;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1250px;
     width: 100%;
     text-align: center;
 }
@@ -39,31 +40,31 @@ nav{
 }
 /* end navigation bar */
 /* begin main images */
-main{
+.image-wrapper{
     background-color: #f2ddda;
 }
 img{
     height: 425px;
     width: 300px;
 }
-.top{
+.top-images{
     float: left;
     padding: 5px;
-    margin: 0;
+    margin: 0px;
+    height: 450px;
+    width:325px;
+    background-color: #f2ddda;
 }
-.bottom{
+.bottom-images{
     float: right;
     padding: 5px;
     margin: 0;
-}
-.toprow{
     height: 450px;
-    width:100%;
+    width:325px;
+    background-color: #f2ddda;
 }
-.secondrow{
-    height: 450px;
-    width: 100%;
-}
+
 .clear{
     clear:left;
+    clear:right;
 }
