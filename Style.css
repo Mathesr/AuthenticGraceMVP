@@ -1,0 +1,91 @@
+/*Rose - suggest doing main page styling esp for font. 
+html, body, div, ul, h1, h2, h3, header, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+*/
+
+.feature-container {
+    text-align: center;
+    margin: 40px;
+}
+
+.feature-container h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.images {
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:50px;
+    padding-bottom: 100px;
+    padding-right: 40px;
+}
+
+.images p {
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.images img {
+    height: 300px;
+}
+
+.btn-wrapper {
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 120px;
+    padding:40px;
+    color: blanchedalmond;
+
+    text-align: center;
+    clear: both;
+    
+}
+
+footer h1 {
+
+}
+
+footer li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
