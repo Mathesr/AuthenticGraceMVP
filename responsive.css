@@ -1,0 +1,20 @@
+@media (max-width:670px){
+    *{
+        box-sizing: border-box;
+    }
+    .navbar{
+        font-size: 15px;
+        padding: 25px;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .top-images{
+        width:100%;
+    }
+    .bottom-images{
+        display:none;
+    }
+
+}
