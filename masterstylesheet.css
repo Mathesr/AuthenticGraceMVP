@@ -109,10 +109,11 @@ nav{
     font-style: italic;
 }
 
+
 .images img {
     height: 280px;
     width: 280px;
-    border-radius: 140px;
+    border-radius: 50%;
 }
 
 .button{
@@ -123,7 +124,7 @@ nav{
 .fa {
     padding: 20px;
     font-size: 50px;
-    width: 25px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
