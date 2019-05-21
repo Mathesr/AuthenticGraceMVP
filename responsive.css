@@ -16,5 +16,15 @@
     .bottom-images{
         display:none;
     }
+    .images{
+        width:100%;
+    }
+    span{
+        font-size: 30px;
+    }
+    
+    footer h1{
+        text-align: center;
+    }
 
 }

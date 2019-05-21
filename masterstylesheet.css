@@ -42,9 +42,9 @@ nav{
 /* begin main images */
 .image-wrapper{
     background-color: #f2ddda;
-    border-bottom: 3px solid #220000;
+    border-bottom: 2px solid #220000;
 }
-img{
+.image-wrapper img{
     height: 425px;
     width: 300px;
 }
