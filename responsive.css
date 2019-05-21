@@ -31,4 +31,12 @@
         text-align: center;
     }
 
+    .image{
+        width:100%;
+    }
+    .text-contents{
+        text-align: center;
+        width:100%;
+    }
+
 }
