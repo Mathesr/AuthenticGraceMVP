@@ -16,6 +16,10 @@
     .bottom-images{
         display:none;
     }
+    .feature-container{
+        padding-top: 10px;
+    }
+    }
     .images{
         width:100%;
     }

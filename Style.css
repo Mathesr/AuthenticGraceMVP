@@ -13,14 +13,18 @@ html, body, div, ul, h1, h2, h3, header, footer {
     margin: 20px;
     background-color: #f0f0ee;
     padding: 5px;
+    color: #220000;
 }
 
 .feature-container h1 {
     text-align: center;
-    color: #220000;
     font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.feature-container p{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
 
 .images {
     display:inline-block;
@@ -38,6 +42,7 @@ html, body, div, ul, h1, h2, h3, header, footer {
 .images p {
     padding-top: 15px;
     font-size: 24px;
+    font-style: italic;
 }
 
 .images img {
