@@ -8,7 +8,7 @@ html, body, div, ul, h1, h2, h3, header, footer {
 }
 */
 
-.feature-container {
+.feature {
     text-align: center;
     margin: 20px;
     background-color: #f0f0ee;
@@ -16,12 +16,12 @@ html, body, div, ul, h1, h2, h3, header, footer {
     color: #220000;
 }
 
-.feature-container h1 {
+.feature h1 {
     text-align: center;
     font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.feature-container p{
+.feature p{
     font-size: 25px;
     padding-bottom: 20px;
 }
