@@ -41,5 +41,10 @@
     .fa{
         margin: 25px;
     }
+    footer li{
+        padding: 10px;
+        margin-right: 10px;
+
+    }
 
 }

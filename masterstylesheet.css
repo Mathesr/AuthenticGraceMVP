@@ -175,3 +175,8 @@ footer li {
     float: right;
     line-height: 1%;
 }
+
+.bottomnav{
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
