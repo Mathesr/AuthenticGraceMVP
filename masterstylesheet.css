@@ -42,6 +42,7 @@ nav{
 /* begin main images */
 .image-wrapper{
     background-color: #f2ddda;
+    border-bottom: 3px solid #220000;
 }
 img{
     height: 425px;
