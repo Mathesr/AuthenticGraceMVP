@@ -7,22 +7,21 @@
         content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="masterstylesheet.css">
         <link rel="stylesheet" href="responsive.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Authentic Grace Homepage</title>
     </head>
     <body>
-        <header>
+        <header id="topnav">
             <div class="container">
             <img class="logo" src="images/authenticgracelogo.png" alt="Authentic Grace Logo">
             </div>
         </header>
         <nav>
             <div class="container">
-             <a class="navbar" href="#">About Us</a>
+             <a class="navbar" href="#about">About Us</a>
              <a class="navbar" href="#">Shop</a>
              <a class="navbar" href="#">Blog</a>
-             <a class="navbar" href="#">Contact Us</a>
+             <a class="navbar" href="#contact">Contact Us</a>
             </div> 
         </nav>
        <!-- begin top image section. Two divisions allow for different background colors-->
@@ -54,48 +53,57 @@
                     <!-- Photo by Analise Benevides on Unsplash -->
                 </div>
             </div>
-            <div class="clear">
+            <div class="clear"></div>
         </div>
-         <div class="feature-container">
-                <h1>Customer Testimonials</h1>
+         
+        <div id="about" class="feature">
+            <div class="container">
+                <h1>About Us</h1>
+                <p>We are a small family owned business in Charleston, SC that started in 2013. We purchase our own inventory and work really hard to find styles that meet your everyday needs. We cater to the classic everyday woman who is fashion forward, but cares a lot about great quality and being cost effective. Check out the Authentic Grace clothing line - you won’t be disappointed!</p>
+        
+                <h1><span class="test">Customer Testimonials</span></h1>
 
                 <div class="images">
-                    <img class="fashion-img" src="images/fashion-image-girl -1-unsplash.jpg" alt="image not found">
-                    <p>Fashion Forward</p>
-                </div>
-                <div class="images">
-                    <img class="cost-img" src="images/Girl -2-unsplash.jpg" alt=" image not found ">
-                    <p>Cost Effective</p>
-                </div>
-                <div class="images">
-                    <img class="ease-img" src="images/Girl -3-unsplash.jpg" alt="image not found ">
-                    <p>Ease of Care</p>
+                    <div class="image">
+                        <img src="images/1fashion-image-girl -1-unsplash.jpg" alt="image not found">
+                        <p class="text-contents">“Hottest styles this minute not this year-I love how they make me look every day!” <br>– Sara, Anaheim, CA. </p>
+                    </div>
+                    <div class="image">
+                        <img src="images/1Girl -2-unsplash.jpg" alt=" image not found ">
+                        <p class="text-contents">“I love that I can buy multiple items and still have money for more! Cost effective and cute!” <br>– Amy, Atlanta, GA. </p>
+                    </div>
+                    <div class="image">
+                        <img src="images/1Girl-3-unsplash.png" alt="image not found ">
+                        <p class="text-contents"><span class="quote">“The clothes I’ve bought have never faded or frayed and I don’t need special detergent to clean them. Such great quality!” <br>– Clara, Charleston, SC.</span></p>
+                    </div>
+                    <div class="clear"></div>
                 </div>
             </div>
-            <div class="footer-container ">
-                <div class="contact-info ">
-
-                </div>
-                <div class="facebook-button ">
-
-                </div>
-                <div class="twitter-button ">
-
+            
+        </div>
+            <div id="contact" class="btn-wrapper">
+                <div class="container">
+                    <div class="button">
+                        <a href="#" class="fa fa-facebook"></a>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                    <div class="clear"></div>
                 </div>
 
             </div>
-            <div class="btn-wrapper">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-            </div>
+
                  <footer>
             <!-- Include social media link, link to blog and company contact info-->
             <h1>Authentic Grace</h1>
             <ul>
-                <li>Blog</li>
-                <li>Company Contact Info</li>
-                <li>Feedback</li>
+                <li><a class="bottomnav" href="#topnav">Back to Top</a></li>
+                <li><a class="bottomnav" href="#">Feedback</a></li>
+                <li><a class="bottomnav" href="#">Location</a></li>
             </ul>
         </footer>
     </body>
