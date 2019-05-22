@@ -8,8 +8,9 @@ html, body, div, ul, h1, h2, h3, header, footer {
 }
 */
 
-.feature-container {
+.feature {
     text-align: center;
+<<<<<<< HEAD
     margin: 40px;
     background-color: #f0f0ee;
 }
@@ -24,6 +25,22 @@ html, body, div, ul, h1, h2, h3, header, footer {
 .feature-container p{
     color: #220000;
     font-size: 25px;
+=======
+    margin: 20px;
+    background-color: #f0f0ee;
+    padding: 5px;
+    color: #220000;
+}
+
+.feature h1 {
+    text-align: center;
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.feature p{
+    font-size: 25px;
+    padding-bottom: 20px;
+>>>>>>> 2ee68592c8f64119257e5e73d6eed0300c976512
 }
 
 .images {
@@ -32,8 +49,16 @@ html, body, div, ul, h1, h2, h3, header, footer {
     margin-right: auto;
     padding-top:50px;
     padding-bottom: 100px;
+<<<<<<< HEAD
     padding-right: 40px;
     width: 30%;
+=======
+    padding-right: 30px;
+    width: 30%;
+}
+.cost-img{
+    width:325px;
+>>>>>>> 2ee68592c8f64119257e5e73d6eed0300c976512
 }
 
 .images p {
@@ -80,23 +105,44 @@ html, body, div, ul, h1, h2, h3, header, footer {
 }
 
 footer {
+<<<<<<< HEAD
     background-color: #220000;
     height: 120px;
     padding:40px;
     text-align: center;
+=======
+    background-color:#220000;
+    height: 120px;
+    padding:40px;
+    color:white;
+    text-align: left;
+>>>>>>> 2ee68592c8f64119257e5e73d6eed0300c976512
     clear: both;
     
 }
 
 footer h1 {
+<<<<<<< HEAD
     color: white;
+=======
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 5%;
+
+>>>>>>> 2ee68592c8f64119257e5e73d6eed0300c976512
 
 }
 
 footer li {
     list-style: none;
+<<<<<<< HEAD
     margin: 0px;
     padding: 0px;
     float:left;
     color: white;
+=======
+    margin-bottom: 0px;
+    padding: 20px;
+    float: right;
+    line-height: 1%;
+>>>>>>> 2ee68592c8f64119257e5e73d6eed0300c976512
 }

@@ -16,5 +16,38 @@
     .bottom-images{
         display:none;
     }
+    .feature{
+        padding-top: 10px;
+    }
+    
+    .images {
+        width:100%;
+    }
+    .test{
+        font-size: 30px;
+    }
+    
+    footer h1{
+        text-align: center;
+    }
+
+    .image{
+        width:100%;
+    }
+    .text-contents{
+        text-align: center;
+        width:100%;
+    }
+    .quote{
+        font-size:25px;
+    }
+    .fa{
+        margin: 25px;
+    }
+    footer li{
+        padding: 10px;
+        margin-right: 10px;
+
+    }
 
 }

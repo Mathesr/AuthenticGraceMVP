@@ -44,12 +44,16 @@ nav{
     background-color: #f2ddda;
     border-bottom: 2px solid #220000;
 }
+<<<<<<< HEAD
 .top-images img{
     height: 425px;
     width: 300px;
 }
 
 .bottom-images img{
+=======
+.image-wrapper img{
+>>>>>>> 2ee68592c8f64119257e5e73d6eed0300c976512
     height: 425px;
     width: 300px;
 }
@@ -73,4 +77,116 @@ nav{
 .clear{
     clear:left;
     clear:right;
+}
+/*end image-wrapper*/
+/*begin text feature*/
+.feature {
+    text-align: center;
+    margin: 20px;
+    background-color: #f0f0ee;
+    padding: 5px;
+    color: #220000;
+}
+
+.feature h1 {
+    text-align: center;
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    border-bottom: 1px solid #220000;
+    padding: 10px;
+}
+
+.feature p{
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.images{
+    width: 100%;
+}
+.image {
+    display:inline-block;
+    width: 30%;
+}
+
+
+.text-contents {
+    width: 80%;
+    margin-top: 15px;
+    font-style: italic;
+}
+.quote{
+    font-size: 20px;
+}
+
+.images img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+}
+
+.button{
+    float: left;
+    margin: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+footer {
+    background-color:#220000;
+    height: 120px;
+    padding:40px;
+    color:white;
+    text-align: left;
+    clear: both;
+    
+}
+
+footer h1 {
+    font-weight: normal;
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 5%;
+
+
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 0px;
+    padding: 20px;
+    float: right;
+    line-height: 1%;
+}
+
+.bottomnav{
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
