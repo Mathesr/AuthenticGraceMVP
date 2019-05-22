@@ -23,8 +23,11 @@
     .images {
         width:100%;
     }
-    span{
+    .test{
         font-size: 30px;
+    }
+    .quote{
+        font-size: 25px;
     }
     
     footer h1{
