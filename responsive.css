@@ -23,7 +23,7 @@
     .images {
         width:100%;
     }
-    .test{
+    span{
         font-size: 30px;
     }
     
@@ -37,9 +37,6 @@
     .text-contents{
         text-align: center;
         width:100%;
-    }
-    .quote{
-        font-size:25px;
     }
     .fa{
         margin: 25px;
