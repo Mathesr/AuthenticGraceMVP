@@ -11,6 +11,23 @@ body{
     width: 100%;
     text-align: center;
 }
+h1, h2{
+    font-weight: normal;
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #220000;
+}
+h3 {
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #220000;
+}
+p{
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+main{
+    background-color: #f2ddda;
+    border-bottom: 2px solid #220000;
+}
 /* begin header */
 header{
     height: 100px;
@@ -162,8 +179,6 @@ footer {
 }
 
 footer h1 {
-    font-weight: normal;
-    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 5%;
 
 
