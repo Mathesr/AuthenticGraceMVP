@@ -26,6 +26,9 @@
     .test{
         font-size: 30px;
     }
+    .quote{
+        font-size: 25px;
+    }
     
     footer h1{
         text-align: center;
@@ -37,9 +40,6 @@
     .text-contents{
         text-align: center;
         width:100%;
-    }
-    .quote{
-        font-size:25px;
     }
     .fa{
         margin: 25px;

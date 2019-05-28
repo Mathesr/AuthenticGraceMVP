@@ -61,7 +61,12 @@ nav{
     background-color: #f2ddda;
     border-bottom: 2px solid #220000;
 }
-.image-wrapper img{
+.top-images img{
+    height: 425px;
+    width: 300px;
+}
+
+.bottom-images img{
     height: 425px;
     width: 300px;
 }
@@ -122,11 +127,10 @@ nav{
 .text-contents {
     width: 80%;
     margin-top: 15px;
+    font-size: 20px;
     font-style: italic;
 }
-.quote{
-    font-size: 20px;
-}
+
 
 .images img {
     height: 280px;
@@ -196,6 +200,7 @@ footer li {
     font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
+
 /* end CSS for landing page */
 /* begin CSS for shop page */
 
@@ -255,3 +260,4 @@ footer li {
     border-color: #220000;
     border-radius: 50%;
 }
+
