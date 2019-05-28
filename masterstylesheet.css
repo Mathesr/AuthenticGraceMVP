@@ -7,9 +7,26 @@ body{
     margin: 0;
 }
 .container{
-    max-width: 1250px;
+    max-width: 1500px;
     width: 100%;
     text-align: center;
+}
+h1, h2{
+    font-weight: normal;
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #220000;
+}
+h3 {
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #220000;
+}
+p{
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+main{
+    background-color: #f2ddda;
+    border-bottom: 2px solid #220000;
 }
 /* begin header */
 header{
@@ -55,7 +72,7 @@ nav{
 }
 .top-images{
     float: left;
-    padding: 5px;
+    padding: 10px;
     margin: 0px;
     height: 450px;
     width:325px;
@@ -63,7 +80,7 @@ nav{
 }
 .bottom-images{
     float: right;
-    padding: 5px;
+    padding: 10px;
     margin: 0;
     height: 450px;
     width:325px;
@@ -166,8 +183,6 @@ footer {
 }
 
 footer h1 {
-    font-weight: normal;
-    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 5%;
 
 
@@ -184,5 +199,65 @@ footer li {
 .bottomnav{
     font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+}
+
+/* end CSS for landing page */
+/* begin CSS for shop page */
+
+.product{
+    background-color:#f0f0ee;
+    margin: 25px;
+    padding: 50px;
+    height: 75%;
+}
+.product h1{
+    border-bottom: 1px solid #220000;
+}
+.product p{
+    width: 100%;
+}
+.topsImage {
+   width: 345px;
+   height: 326px; 
+   margin: 75px 75px 10px 10px;
+   float:left;
+}
+.pantsImage {
+    height: 305px;
+    width: 246px;
+    float: left;
+    margin:75px 75px 10px 10px;
+}
+.totopbtn {
+    color: #220000;
+    float: right;
+    font-size: 15px;
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cartbtn{
+    background-color: #117788;
+    color: #f0f0ee;
+    height: 50px;
+    width: 200px;
+}
+.checkoutbtn{
+    float: right;
+    padding: 50px;  
+}
+.fas{
+    color: #220000;
+}
+.sizebtn{
+    float: left;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0f0ee;
+    color: #220000;
+    margin: 5px;
+    border-color: #220000;
+    border-radius: 50%;
 }
 
