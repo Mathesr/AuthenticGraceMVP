@@ -229,3 +229,30 @@ footer li {
     font-size: 15px;
     font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.cartbtn{
+    background-color: #117788;
+    color: #f0f0ee;
+    height: 50px;
+    width: 200px;
+}
+.checkoutbtn{
+    float: right;
+    padding: 50px;  
+}
+.fas{
+    color: #220000;
+}
+.sizebtn{
+    float: left;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    font-family: 'Copperplate Gothic', 'Engravers MT', 'Castellar', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0f0ee;
+    color: #220000;
+    margin: 5px;
+    border-color: #220000;
+    border-radius: 50%;
+
+}
